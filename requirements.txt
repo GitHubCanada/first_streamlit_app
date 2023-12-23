@@ -1,5 +1,7 @@
-#snowflake-connector-python
+snowflake-connector-python[pandas]
 
-#streamlit==1.29.0
+cffi==1.15.0
 
-#pyarrow==14.0.2
+pyarrow<8.1.0,>=8.0.0
+
+streamlit >= 1.9.2
